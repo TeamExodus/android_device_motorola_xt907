@@ -1,8 +1,8 @@
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Exodus stuff.
+$(call inherit-product, vendor/exodus/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/exodus/config/nfc_enhanced.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/motorola/qcom-common/overlay-cm
 
@@ -15,7 +15,7 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 960
 TARGET_SCREEN_WIDTH := 540
 
-PRODUCT_NAME := cm_xt907
+PRODUCT_NAME := exodus_xt907
 TARGET_VENDOR_PRODUCT_NAME := XT907_verizon
 TARGET_VENDOR_DEVICE_NAME := scorpion_mini
 
